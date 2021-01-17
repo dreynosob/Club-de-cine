@@ -1,0 +1,284 @@
+<!DOCTYPE html >
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Klaus</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style>
+.klauscolumnas{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 2em;
+	text-align: justify;
+	
+}
+
+
+.klauscolumnas dd{
+	margin-left: 10px;
+}
+.klauscolumnas dt{
+	border-bottom: solid;
+	border-color: #1c1c1c;
+}
+.klauscolumnas dl dt{
+	font-size: 0.8em;
+	font-family: "Noto Serif";
+	font-weight: 700;
+}
+.klauscolumnas dl dd{
+	font-size: 0.7em;
+	line-height: 1.9em;
+}
+.klauscolumnas span{
+	font-weight: 700;
+	color: #1c1c1c;
+}
+.klauscolumnas h2, h3, h4 {
+	font-size: 1em;
+	line-height: 0.3em;
+}
+.klauscolumnas p{
+	font-size: 0.7em;
+	line-height: 1.8em;
+}
+.tituloklaus h1 {
+	font-size: 1.5em;
+	font-weight:bold;
+	text-align: left;
+line-height: 4rem;
+}
+
+
+
+.sergio img{
+	float: left;
+	overflow: hidden;
+	shape-outside: circle(40%);
+	margin-right: 20px;
+	border-radius: 60px;
+}
+.sergio p{
+	font-size: 0.7em;
+	line-height: 1.8em;
+	
+}
+.hilo li{
+	list-style: none;
+	display: inline;
+}
+.hilo ul {
+	text-align: left;
+	padding-left: 0;
+}
+.hilo a{
+	text-decoration: none;
+	font-size: 0.6em;
+	color: rgba(0, 0, 0, 0.938);
+}
+.hilo a:hover{
+	color:rgb(155, 23, 0) ;
+}
+.hilo a.active2{
+	color: rgba(0, 0, 0, 0.274);
+}
+.hilo .content::after{
+	content: "/";
+	padding-left: 5px;
+}
+.hilo .content::before{
+	content: "/";
+	padding-right: 5px;
+}
+
+
+/*MEDIA-KLAUS*/
+@media screen and (max-width:600px){
+	.klauscolumnas{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.klauscolumnas section{
+		margin-right: 0;
+	}
+	.klauscolumnas section{
+		margin-left: -60px;
+	}
+	.klauscolumnas iframe{
+		width: 450px;
+		height: 250px;
+	}
+	main .hilo {
+		margin-left: 100px;
+
+	}
+	.tituloklaus{
+		margin-left: -60px;
+
+	}
+	nav .logo2{
+		margin-left: 130px;
+
+
+	}
+	nav .clubsesiones{
+		margin-left: 70px;
+
+
+	}
+	nav button{
+		width: 8em;
+		margin-left: 150px;
+	
+
+	}
+		
+	}
+	</style>
+</head>
+
+<body id="home">
+    <header>
+            
+        <nav class="menu">
+            <a href="index.html" class="logo2"><img alt="Isologo" src="img/oscarsclub-isologo.png" width="40px" height="40px">Oscars<span class="ligero">club</span></a>
+            <ul class="clubsesiones">
+               
+                <li><a href="clubes-tematicos.html">CLUBES TEMÁTICOS</a></li>
+                <li><a href="sesiones-2020.html">SESIONES 2020</a></li>
+            </ul>
+            <button>Iniciar sesion</button>
+        </nav>
+
+
+         
+    </header>
+    <main>
+
+        <div class="hilo">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="content" href="sesiones-2020.html">Sesiones 2020</a></li>
+                <li><a class="active2" href="Klaus.html">Klaus</a></li>
+            </ul>
+        </div>
+
+      <div class="tituloklaus">
+            
+        <h1>Klaus</h1>
+
+        </div>
+        
+            <div class="klauscolumnas">
+                
+                <section>
+                  
+                    <h2>Ficha técnica</h2>
+                   
+                <dl>
+                    <dt>Club de cine</dt>
+                    <dd>Galardonados</dd>
+                    <dt>Datos de la obra</dt>
+                    <dd><span>Título:</span> Klaus</dd>
+                    <dd><span>Director:</span> Sergio Pablos</dd>
+                    <dd><span>País:</span> España</dd>
+                    <dd><span>Género:</span> cine de aventuras, película de animación y película navideña </dd>
+                    <dd><span>Duración:</span>96 minutos</dd>
+                    <dd><span>Fecha de estreno:</span> 2019</dd>
+
+                    <dt>Premios y nominaciones</dt>
+                    <dd><span>2019:</span> Premios Goya (nominación)</dd>
+                    <dd><span>2019: </span>Annie Award for Best Animated Feature (ganado)</dd>
+                    <dd><span>2019:</span> Premios Oscar (nominación)</dd>
+                    <dd><span>2020:</span> European Film Award for Best Animated Feature Film (nominación)</dd>
+
+                    <dt>Coordinadora</dt>
+                    <dd>Paula Castell</dd>
+
+                    <dt>Calendario</dt>
+                    <dd><span>15 de enero:</span> presentación</dd>
+                    <dd><span>30 de enero:</span> Inicio de la conversación en el foro de la plataforma</dd>
+                    <dd><span>15 de febrero:</span> videochat con Rebeca Luján</dd>
+                    <dd><span>16 de febrero:</span> finaliza el debate</dd>
+                  </dl>
+                  </section>
+                  
+                  <div>
+                    <section>
+                      
+                        <h3>Sobre la obra</h3>
+                        <p class="k"><span>Klaus</span> adapta la leyenda de Santa Claus a un universo realista en que esta figura surge desde cero. Para escribir el guión, Sergio Pablos tomó los diferentes elementos que conforman la tradición y quiso reinventarse sin elementos mágicos ni tópicos del cine navideño. De este modo, todas las acciones se explican a través de las experiencias del reparto y de la tradición oral, especialmente los actos de generosidad desinteresada.</p>
+                        <p>Uno de los aspectos más destacables de la película son los personajes del pueblo lapón, que en el guión acaban siendo los acompañantes de Klaus. Pablos decidió incluirlos como un elemento distintivo de la cultura escandinava, ya que no podía utilizar los tradicionales elfos. Durante el rodaje decidió que sólo hablaran en lengua sami sin subtítulos para reforzar el choque cultural de Jesper en su nuevo destino; la principal figura sami, margas, fue interpretada por una niña de Tromsø que sólo sabía hablar en lapón.</p>
+                      </section>
+           
+
+                      
+                              <section class="sergio">
+                              <h3>Sobre Sergio Pablo </h3>
+                              <div>
+                                <img alt="Sergio Pablo" src="img/sergio-pablos.jpg" width="110px" height="110px"> </div>
+                                <p>El creador de Klaus es el animador español Sergio Pablos, que previamente había trabajado como diseñador en varias películas de Walt Disney en su etapa de renacimiento -A Goofy Movie, El jorobado de Notre Dame, Hércules, Tarzan-, ha produjo la cinta hispano metegol, y es el creador de la historia que inspiró la saga Despicable Me. En la década de 2000 había fundado su propio estudio de animación, The SPA Studios, junto con su esposa Marisa Román.</p>
+
+                          </section>
+
+                          
+                              <section>
+                                  <h4>Trailer</h4>
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/taE3PwurhYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                  <p><i>KLAUS | OFFICIAL TRAILER | NETFLIX</i></p>
+                              </section>
+                            
+                            
+
+                  </div>
+                  
+    
+                 </div>
+
+        
+    </main>
+    
+
+	
+	<footer>
+        <div class="container-footer">
+            <div id="footerhorizontal">
+                
+                <ul class="enlinea">
+                   
+                    <li> <a href="">Sobre nosotros</a></li>
+                    <li> <a class="punto" href="">Aviso legal</a></li>
+                    <li> <a href="">Política de privacidad</a></li>
+                    </ul>
+
+                    <ul>
+                        <li> <a href="">Facebook</a></li>
+                        <li> <a class="punto" href="">Twitter</a></li>
+                        <li> <a href="">Youtube</a></li>
+                        </ul>
+                    </div>
+                        
+
+                    <div id="footerhorizontal2">
+                        <ul>
+                            <li>© 2020 Darlyn Reynoso Barroso</li>
+                            <li><a href="https://www.flaticon.com">Iconos flaticon.com</a></li>
+                            <li><a href="https://unsplash.com">Imágenes unsplash.com </a></li>
+                        </ul>
+                        <a class="derecha" href="Klaus.html"><img alt="flecha" src="img/Flecha.png" width="20px" height="20px"></a>
+                        
+
+
+                    </div>
+
+        
+    </footer>
+
+	
+</body>
+</html>
