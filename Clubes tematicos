@@ -1,0 +1,197 @@
+<!DOCTYPE html >
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clubes temáticos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style>
+.figure2{
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+#clubesfotos{
+	font-size: 12px;
+	line-height: 16px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+#clubesfotos p {
+	text-align: left;
+}
+#clubesfotos h2{
+	font-weight: 100;
+	
+	
+}
+#clubesfotos h2{
+text-align: left;	
+}
+#clubesfotos a{
+	color: #9b1700;
+	text-decoration: none;
+	
+}
+.tituloclubes{
+	margin-top: 50px;
+	padding-left: 1em;
+	line-height: 1.5;
+}
+.centrar2 li{
+	display: inline-block;
+	padding:5px 10px;
+	position: relative;
+    left: 90%;
+}
+
+.centrar2 li a {
+	margin-top: 1.2em;
+	padding: 0;
+	margin-left: 1em;
+}
+.rojo{
+	color:#9b1700 ;
+}
+/*MEDIA-CLUBES*/
+@media screen and (max-width:800px){
+	.figure2{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
+</style>
+
+</head>
+
+<body id="home">
+    <header>
+            
+        <nav class="menu">
+            <a href="index.html" class="logo2"><img alt="Isologo" src="img/oscarsclub-isologo.png" width="40px" height="40px">Oscars<span class="ligero">club</span></a>
+            <ul class="clubsesiones">
+               
+                <li><a class="active" href="clubes-tematicos.html">CLUBES TEMÁTICOS</a></li>
+                <li><a href="sesiones-2020.html">SESIONES 2020</a></li>
+            </ul>
+            <button>Iniciar sesion</button>
+        </nav>
+
+
+         
+    </header>
+    <main>
+        <section>
+            <div class="tituloclubes">
+                <h1>Nuestros clubes de cine</h1>
+
+            </div>
+         
+            <section id="clubesfotos" class="figure2">
+
+                <div>
+                    <img alt="Galardonados" src="img/club1.jpg" width="100%">
+                    
+                        <h2><span class="rojo">....</span>Galardonados</h2>
+                        <p>Mejores guiones, actores, directores ... Se consideran las mejores películas por los premios que han ganado. Y tú, ¿qué opinas?</p>
+                        <p><a href="sesiones-2020.html#galardonados">En 2020 veremos...+</a></p>
+                    </div>
+
+                    <div>
+                        <img alt="En el espacio" src="img/club2.jpg" width="100%">
+                        
+                            <h2><span class="rojo">....</span>En el espacio</h2>
+                            <p>La ciencia ficción no siempre está llena de monstruos y batallas. ¡Descubre con nosotros la conquista del espacio! </p>
+                            <p><a href="sesiones-2020.html#Enelespacio">En 2020 veremos...+</a></p>
+                        </div>
+
+
+                        <div>
+                            <img alt="Una dósis de intriga" src="img/club3.jpg" width="100%">
+                            
+                                <h2><span class="rojo">....</span>Una dósis de intriga</h2>
+                                <p>¿Eres de los que les gusta estar toda la película al borde de la silla, preguntándote qué pasará después y qué está pasando realmente? </p>
+                                <p><a href="sesiones-2020.html#Unadosisdeintriga">En 2020 veremos...+</a></p>
+                            </div>
+
+                            <div>
+                                <img alt="De otra época" src="img/club4.jpg" width="100%">
+                                
+                                    <h2><span class="rojo">....</span>De otra época</h2>
+                                    <p>¡Volvemos a los clásicos! Desde los hermanos Marx a Hitchcock, repasaremos las películas que marcaron generaciones. </p>
+                                    <p><a href="sesiones-2020.html#Deotraepoca">En 2020 veremos...+</a></p>
+                                </div>
+
+                                <div>
+                                    <img alt="Pongámonos románticos" src="img/club5.jpg" width="100%">
+                                    
+                                        <h2><span class="rojo">....</span>Pongámonos románticos</h2>
+                                        <p>¿A quién no le gusta una buena historia de amor? Bienvenidos al espacio de los relatos fantásticos y los finales felices. </p>
+                                        <p><a href="sesiones-2020.html#Pongamonosromanticos">En 2020 veremos...+</a></p>
+                                    </div>
+
+                                    <div>
+                                        <img alt="Nacional" src="img/club6.jpg" width="100%">
+                                        
+                                            <h2><span class="rojo">....</span>Nacional</h2>
+                                            <p>¡No todas las películas se hacen en Hollywood! Disfruta de nuestra selección de producción nacional. </p>
+                                            <p><a href="sesiones-2020.html#Nacional">En 2020 veremos...+</a></p>
+                                        </div>
+    
+                        
+
+                    
+                   
+                
+
+            </section>
+
+        </section>
+    </main>
+    
+   
+   
+    <footer>
+        <div class="container-footer">
+            <div id="footerhorizontal">
+                
+                <ul class="enlinea">
+                   
+                    <li> <a href="">Sobre nosotros</a></li>
+                    <li> <a class="punto" href="">Aviso legal</a></li>
+                    <li> <a href="">Política de privacidad</a></li>
+                    </ul>
+
+                    <ul>
+                        <li> <a href="">Facebook</a></li>
+                        <li> <a class="punto" href="">Twitter</a></li>
+                        <li> <a href="">Youtube</a></li>
+                        </ul>
+                    </div>
+                        
+
+                    <div id="footerhorizontal2">
+                        <ul>
+                            <li>© 2020 Darlyn Reynoso Barroso</li>
+                            <li><a href="https://www.flaticon.com">Iconos flaticon.com</a></li>
+                            <li><a href="https://unsplash.com">Imágenes unsplash.com </a></li>
+                        </ul>
+                        <a class="derecha" href="clubes-tematicos.html"><img alt="flecha" src="img/Flecha.png" width="20px" height="20px"></a>
+                        
+
+
+                    </div>
+
+        
+    </footer>
+	
+</body>
+</html>
