@@ -1,0 +1,321 @@
+<!DOCTYPE html >
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sesiones</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style>
+
+.titulosesiones p{
+	text-align: left;
+	padding-left: 4em;
+}
+
+.tituloporclub h2{
+	text-align: left;
+	font-size: 1em;
+	border-top-style: dotted;
+	border-top-width: 3px;
+	border-top-color:#9b1700;
+}
+.tituloporclub ul{
+	list-style: none;
+	position: relative;
+	text-align: left;
+  transition: all 0.25s;
+  
+}
+.tituloporclub a{
+	text-decoration: none;
+}
+.tituloporclub a:link{
+	color: rgb(28, 28, 28) ;
+	
+
+}
+.tituloporclub a:active{
+	color: rgb(28, 28, 28) ;
+}
+.tituloporclub a:visited{
+	color: rgb(28, 28, 28) ;
+}
+.tituloporclub a:focus{
+	color: rgb(28, 28, 28) ;
+}
+.tituloporclub a:hover{
+	background-color: rgba(155, 23, 0, 0.5);
+}
+
+
+.gridmovies ul{
+	list-style: none;
+}
+
+#gridsesiones ul {
+	clear: both;
+	position: relative;
+	display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  transition: all 0.25s;
+  
+ 
+}
+#gridsesiones li:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+}
+#gridsesiones ul li a{
+	text-decoration: none;
+	color: rgb(155, 23, 0);
+	font-weight: bold;
+}
+#gridsesiones ul li {
+	background-color: white;
+}
+#gridsesiones ul li p{
+	display: flex;
+	text-align: left;
+}
+
+
+#gridsesiones ul li a:hover{
+	background-color: rgba(155, 23, 0, 0.5);
+}
+
+/*MEDIA-SESIONES*/
+@media screen and (max-width:800px){
+	#gridsesiones ul{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.tituloporclub ul {
+		margin-left: -80px;
+	}
+	.tituloporclub h2{
+		border: none;
+		
+	}
+	.titulosesiones p{
+		margin-left: -110px;
+		margin-right: -50px
+	
+
+	}
+	.titulosesiones h1{
+		padding-top: 20px;
+	}
+}
+</style>
+</head>
+
+<body id="home">
+    <header>
+            
+        <nav class="menu">
+            <a href="index.html" class="logo2"><img alt="Isologo" src="img/oscarsclub-isologo.png" width="40px" height="40px">Oscars<span class="ligero">club</span></a>
+            <ul class="clubsesiones">
+               
+                <li><a href="clubes-tematicos.html">CLUBES TEMÁTICOS</a></li>
+                <li><a class="active" href="sesiones-2020.html">SESIONES 2020</a></li>
+            </ul>
+            <button>Iniciar sesion</button>
+        </nav>
+
+
+         
+    </header>
+    <main>
+        <article>
+            <div class="titulosesiones">
+                <h1>Sesiones 2020</h1>
+                <p>Los coordinadores de Oscars Club han tenido en cuenta y han valorado las propuestas de los socios de cada club y han seleccionado las obras a visionar durante el 2020.</p>
+                <p>Si aún no formas parte del Club, inscríbete y disfruta con nosotros del cine.</p>
+              
+            </div>
+            <article>
+                <div class="tituloporclub">
+                    <h2>Sesiones por club</h2>
+
+                    <ul>
+                        <li><a href="#galardonados">Galardonados</li></a>
+                        <li><a href="#Enelespacio">En el espacio</li></a>
+                        <li><a href="#Unadosisdeintriga">Una dósis de intriga</li></a>
+                        <li><a href="#Deotraepoca">De otra época</li></a>
+                        <li><a href="#Pongamonosromanticos">Pongámonos románticos</li></a>
+                        <li><a href="#Nacional">Nacional</li></a>
+                    </ul>
+                </div>
+                    
+                
+                <div class="gridmovies" id="gridsesiones">
+                    <ul id="galardonados">
+                            <li>
+                                <a title="Parasite" href=""></a><img alt="Parasite" src="img/club1-movie1.jpg" width="100%"></a>
+                                <p><a href="">Parasite, 2019</a></p>
+                            </li>
+                            <li>
+                                <a href=""><img alt="1917" src="img/club1-movie2.png" width="100%"></a>
+                                <p><a href="">1917, 2019</a></p>
+                            </li>
+                            <li>
+                                <a href="Klaus.html"><img alt="Klaus" src="img/club1-movie3.jpg" width="100%"></a>
+                                <p><a href="Klaus.html">Klaus, 2019</a></p>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+
+
+                    <div class="gridmovies" id="gridsesiones">
+                        <ul id="Enelespacio">
+                            
+                        <li>
+                            <a href=""><img alt="The Martian" id="Galardonados" src="img/club2-movie1.jpg" width="100%"></a>
+                            <p><a href="">The Martian, 2015</a></p>
+                        </li>
+                        <li>
+                            <a href=""><img alt="Interstellar" src="img/club2-movie2.jpg" width="100%"></a>
+                            <p><a href="">Interstellar, 2014</a></p>
+                        </li>
+                        <li>
+                            <a href=""><img alt="Gravity" src="img/club2-movie3.jpg" width="100%"></a>
+                            <p><a href="">Gravity, 2013</a></p>
+                        </li>
+                        </ul>
+                    </div>
+
+
+                    
+                    <div class="gridmovies" id="gridsesiones">
+                        <ul id="Unadosisdeintriga">
+                            <li>
+                                <a href=""><img alt="Knives out" src="img/club3-movie1.jpg" width="100%"></a>
+                                <p><a href="">Knives out, 2019</a></p>
+                            </li>
+                            <li>
+                                <a href=""><img alt="Inception" src="img/club3-movie2.jpg" width="100%"></a>
+                                <p><a href="">Inception, 2010</a></p>
+                            </li>
+                            <li>
+                                <a href=""><img alt="Keeping mum" src="img/club3-movie3.jpg" width="100%"></a>
+                                <p><a href="">Keeping mum, 2005</a></p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                        <div class="gridmovies" id="gridsesiones">
+                            <ul id="Deotraepoca">
+                                <li>
+                                    <a href=""><img alt="Noth by Northwest" src="img/club4-movie1.jpg" width="100%"></a>
+                                    
+                                        <p><a href="">Noth by Northwest, 1959</a></p>
+                                    
+                                </li>
+                                <li>
+                                    <a href=""><img alt="A Night at the Opera" src="img/club4-movie2.jpg" width="100%"></a>
+                                    <p><a href="">A Night at the Opera, 1935</a></p>
+                                </li>
+                                <li>
+                                    <a href=""><img alt="Casablanca" src="img/club4-movie3.jpg" width="100%"></a>
+                                    <p><a href="">Casablanca, 1942</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                     
+
+                        
+
+                          <div class="gridmovies" id="gridsesiones">
+                              <ul id="Pongamonosromanticos">
+                                <li>
+                                    <a href=""><img alt="Love Actually" src="img/club5-movie1.jpg" width="100%"></a>
+                                    <p><a href="">Love actually, 2003</a></p>
+                                </li>
+                                <li>
+                                    <a href=""><img alt="The Princess Bride" src="img/club5-movie2.jpg" width="100%"></a>
+                                    <p><a href="">The Princess Bride, 1987</a></p>
+                                </li>
+                                <li>
+                                    <a href=""><img alt="Sabrina" src="img/club5-movie3.jpg" width="100%"></a>
+                                    <p><a href="">Sabrina, 1954</a></p>
+                                </li>
+                              </ul>
+
+                          </div>
+
+                          <div class="gridmovies" id="gridsesiones">
+                              <ul id="Nacional">
+                                  
+                                <li>
+                                    <a href=""><img alt="Las brujas de Zugarramurdi" src="img/club6-movie1.jpg" width="100%"></a>
+                                    <p><a href="">Las brujas de Zugarramurdi, 2013</a></p>
+                                </li>
+                                <li>
+                                    <a href=""><img alt="Pa negre" src="img/club6-movie2.jpg" width="100%"></a>
+                                    <p><a href="">Pa negre, 2010</a></p>
+                                </li>
+                                <li>
+                                    <a href=""><img alt="Tapas" src="img/club6-movie3.jpg" width="100%"></a>
+                                    <p><a href="">Tapas, 2005</a></p>
+                                </li>
+
+
+                              </ul>
+                          </div>
+                          
+
+            
+            </article>
+        </article>
+    </main>
+   
+   
+
+	
+	<footer>
+        <div class="container-footer">
+            <div id="footerhorizontal">
+                
+                <ul class="enlinea">
+                   
+                    <li> <a href="">Sobre nosotros</a></li>
+                    <li> <a class="punto" href="">Aviso legal</a></li>
+                    <li> <a href="">Política de privacidad</a></li>
+                    </ul>
+
+                    <ul>
+                        <li> <a href="">Facebook</a></li>
+                        <li> <a class="punto" href="">Twitter</a></li>
+                        <li> <a href="">Youtube</a></li>
+                        </ul>
+                    </div>
+                        
+
+                    <div id="footerhorizontal2">
+                        <ul>
+                            <li>© 2020 Darlyn Reynoso Barroso</li>
+                            <li><a href="https://www.flaticon.com">Iconos flaticon.com</a></li>
+                            <li><a href="https://unsplash.com">Imágenes unsplash.com </a></li>
+                        </ul>
+                        <a class="derecha" href="sesiones-2020.html"><img alt="flecha" src="img/Flecha.png" width="20px" height="20px"></a>
+                        
+
+
+                    </div>
+
+        
+    </footer>
+
+	
+</body>
+</html>
